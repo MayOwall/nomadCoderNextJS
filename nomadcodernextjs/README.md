@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lecture notes
 
-## Getting Started
+## 1 : FrameWork Overview
 
-First, run the development server:
+### 1.1 Pages
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+#### **컴포넌트와 URL**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+pages 폴더 내부에 있는 컴포넌트 폴더 이름은 <br/>
+곧바로 URL 주소가 된다.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<br/>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+404 페이지 또한 NextJS에서 자동으로 만들어준다.<br/>
+(커스텀 가능)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<br/>
 
-## Learn More
+홈은 예외적으로 `/`을 디폴트 URL 주소로 갖는다.
 
-To learn more about Next.js, take a look at the following resources:
+<br/>
+<br/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### **NextJS에서의 jsx**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**NextJS**에서 jsx를 사용할 때, <br/>
+react를 import해 올 필요가 없다.
 
-## Deploy on Vercel
+<br/>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+(useState, useEffect등의 훅은 react import 필요)
