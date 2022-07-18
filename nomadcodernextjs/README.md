@@ -83,8 +83,37 @@ import 해서 사용 해 주도록 하자.
 
 태그에 인라인 스타일을 적용 해 주는 방법
 
+<br/>
+
 #### index.module.css 파일 사용
+
+<br/>
 
 #### .module.css의 장점
 
 클래스 식별자 명 중복에 대해 걱정하지 않아도 된다
+
+<br/>
+<br/>
+<br/>
+
+### 1.5 Styles JSX
+
+NextJs의 고유 스타일 지정 방식<br/>
+아래와 같은 방식으로 사용할 수 있다.
+<br/>
+
+컴포넌트 별 스코프를 가지기에 <br/>
+식별자명 중복에 관한 걱정을 덜 수 있다.
+
+```js
+<style jsx>{`
+  nav {
+    background-color: darkolivegreen;
+  }
+  .active {
+    color: bisque;
+    text-decoration: underline;
+  }
+`}</style>
+```
