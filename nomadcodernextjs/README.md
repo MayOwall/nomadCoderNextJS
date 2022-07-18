@@ -29,3 +29,16 @@ react를 import해 올 필요가 없다.
 <br/>
 
 (useState, useEffect등의 훅은 react import 필요)
+
+<br/>
+<br/>
+<br/>
+
+### 1.2 Static Pre Rendering
+
+#### **NextJS의 장점**
+
+앱에 있는 페이지들이 미리 서버에서 렌더링 되어 내려온다.(SSR)
+<br/>
+
+즉 첫 로딩시 CSR에 비해 빠른 렌더링이 가능하다(오...)
