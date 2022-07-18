@@ -42,3 +42,37 @@ react를 import해 올 필요가 없다.
 <br/>
 
 즉 첫 로딩시 CSR에 비해 빠른 렌더링이 가능하다(오...)
+
+<br/>
+<br/>
+<br/>
+
+### 1.3 Routing
+
+#### **Navigation Bar**
+
+navigating을 할 때 `<a>`태그를 이용하면<br/>
+페이지 전체가 다시 로딩되게 된다 (SSR)
+<br/>
+따라서 CSR을 위해 `<a>`태그가 아닌 `<Link> `컴포넌트를 사용 해 주도록 하자
+
+<br/>
+
+#### **Link 컴포넌트**
+
+next/link에서 기본제공 해주는 라우팅 컴포넌트
+CSR을 도와준다<br/>
+
+`import Link from 'next/link'` 를 통해 사용해주자
+
+<br/>
+
+#### **useRouter**
+
+useRouter은 next에서 기본 제공해주는 라우팅 관련 훅이다.<br/>
+현재 route의 url주소를 쉽게 얻을 수 있다.<br/>
+import 해서 사용 해 주도록 하자.
+
+<br/>
+<br/>
+<br/>
