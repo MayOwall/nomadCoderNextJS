@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkolivegreen;
+}
+
+.active {
+  font-weight: 900;
+}
+
+.link {
+  text-decoration: none;
+}
