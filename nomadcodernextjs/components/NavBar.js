@@ -14,10 +14,7 @@ export default function NavBar() {
       nav {
         background-color : darkolivegreen;
       }
-      a {
-        text-decoration : none;
-        color : white;
-      }
+      
       .active {
         color : bisque;
         text-decoration: underline;
