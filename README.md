@@ -10,3 +10,7 @@ https://nomadcoders.co/nextjs-fundamentals/lectures/3454
 ## 기간
 
 2022.07.18 ~ 2022.07.20
+
+## 메인 브랜치
+
+main
