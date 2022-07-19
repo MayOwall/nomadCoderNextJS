@@ -1,8 +1,8 @@
-import NavBar from "../components/NavBar"
+import Layout from '../components/Layout';
 export default function App({ Component, pageProps }) {
   return (
     <div>
-      <NavBar />
+      <Layout>
       <Component {...pageProps} />
       <style jsx global>
         {`
@@ -11,7 +11,8 @@ export default function App({ Component, pageProps }) {
           }
         `}
       </style>
-      <span>Hello this is _app</span>
+      <span>Hello this is from _app</span>
+      </Layout>
     </div>
   )
 }
