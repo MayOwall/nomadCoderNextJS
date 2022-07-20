@@ -136,3 +136,25 @@ NextJS의 모든 컴포넌트에 대한 청사진<br/>
 <br/>
 <br/>
 <br/>
+
+### 2.5 Dynamic Routes
+
+#### Static Routing
+
+NextJS에서 정적 라우팅을 할 때는 <br/>
+pages폴더 내부에서 원하는 이름으로 파일을 생성 해 주면 된다.
+
+<br/>
+
+#### Dynamic Routing
+
+동적 라우팅을 할 때는 <br/>
+대괄호 안에 변수를 넣어 파일 이름을 정해주면 된다.
+<br/>
+useRouter를 이용하여 router에 대한 정보를 받아보면,<br/>
+router 객체의 query 프로퍼티 안에<br/>
+변수에 대한 값이 담겨있는 것을 확인할 수 있다.
+
+<br/>
+<br/>
+<br/>
