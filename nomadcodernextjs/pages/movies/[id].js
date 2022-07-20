@@ -3,7 +3,9 @@ import { useRouter } from 'next/router';
 export default function Detail() {
   const router = useRouter();
   console.log('router : ', router);
-  return '>movies > detail '
+  return (
+    <h1>{router.query.title || "loading..."}</h1>
+  )
 }
 
 /*

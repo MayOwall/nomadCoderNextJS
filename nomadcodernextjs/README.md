@@ -158,3 +158,40 @@ router 객체의 query 프로퍼티 안에<br/>
 <br/>
 <br/>
 <br/>
+
+### 2.6 Movie Detail
+
+#### router hook
+
+onClick등의 이벤트에 routing을 바인딩하고 싶다면<br/>
+router hook을 이용하면 된다.
+
+```js
+const router = useRouter();
+const onClick = (id) => {
+  router.push(`/movies/${id}`);
+};
+```
+
+<br/>
+routing처리를 해 준 다음에 <br/>
+api 키를 숨겨주는 것도 잊지 말자.
+
+<br/>
+
+push를 할 때 파라미터로 객체를 전달 해 줄 수도 있다.
+
+```js
+const onClick = (id) => {
+  router.push({
+    pathname: `/movies/${id}`,
+    query: {
+      title: "title",
+    },
+  });
+};
+```
+
+<br/>
+<br/>
+<br/>
